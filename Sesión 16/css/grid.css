@@ -1,0 +1,41 @@
+.grid{
+    display: grid;
+    grid-template-areas: "head head head" "menu contenedor enlaces"
+    "foot foot foot";
+}
+
+.a{
+    grid-area: head;
+    background-color: blue;
+}
+
+.b{
+    grid-area: menu;
+    background-color: red;
+}
+
+.c{
+    grid-area: contenedor;
+    background-color: green;
+}
+
+.d{
+    grid-area: foot;
+    background-color: orange;
+}
+
+e{
+    grid-area: enlaces;
+    background-color: yellow;
+}
+
+/*
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+.bordes{
+    border: 1px solid;
+}
+*/
